@@ -5,6 +5,8 @@ int enemyRandomNum;
 int playerPoints = 0;
 int enemyPoints = 0;
 
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.BackgroundColor = ConsoleColor.White;
 
 Random random = new Random();
 
@@ -55,6 +57,5 @@ for (int i = 0; i < 10; i++)
         Console.WriteLine("It's a draw!");
     }
 Console.ReadKey();
-
 
 
